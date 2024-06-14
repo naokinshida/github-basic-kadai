@@ -1,0 +1,28 @@
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge> cd "C:\Users\naoki\OneDrive\デスクトップ\git_challenge"
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge> cd git_challenge
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge\git_challenge> git init
+Initialized empty Git repository in C:/Users/naoki/OneDrive/デスクトップ/git_challenge/git_challenge/.git/
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge\git_challenge> git add hellow.world.txt
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/naoki/OneDrive/デスクトップ/git_challenge/git_challenge/.git/
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge\git_challenge> echo "Hellow.world!" >> hello_world.txt
+>> git add hello_world.txt
+>> git commit -m "hellow_world.txtを追加"
+>> 
+[main (root-commit) 911861e] hellow_world.txtを追加
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+ create mode 100644 hellow.world.txt
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+>> 
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge\git_challenge> git add hello_world.txt
+>> git commit -m "日本語訳を追記" 
+>> 
+[main e471103] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge\git_challenge> git log --online
+fatal: unrecognized argument: --online
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge\git_challenge> git log --oneline
+e471103 (HEAD -> main) 日本語訳を追記
+911861e hello_world.txtを追加
+PS C:\Users\naoki\OneDrive\デスクトップ\git_challenge\git_challenge> 
